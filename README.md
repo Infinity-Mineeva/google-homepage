@@ -1,6 +1,6 @@
-===================================
-======== Project: HTML/CSS ========
-===================================
+====================
+ Project: HTML/CSS
+====================
 
 The purpose of this peoject is to test my basic HTML and CSS skills
 learnt so far and use them to deconstruct and rebulid a simple
