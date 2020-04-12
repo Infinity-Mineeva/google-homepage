@@ -9,8 +9,15 @@ page.
 The page chosen for this project is Google.ca's homepage.
 
 
+======
+v. 1.0
+======
 
+Update: April 11, 2020 -- Uploaded v. 1.0 of the HTML/CSS files. The Google homepage is currently a non-functional
+site (just looks like Google's homepage when not logged in). 
 
+Future updates will (hopefully) include the ability to actually do a live search and get actual
+Search Results from Google.
 
 
 
