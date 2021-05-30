@@ -1,71 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Google</title>
-    <link href="stylesheets/main.css" rel="stylesheet" type="text/css">
-    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
-</head>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+        <title>Google</title>
+        <link href="images/iconfinder_new-google-favicon_682665.png" type="image/png" rel="shortcut icon">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul class="left-col">
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Store</a></li>
+                </ul>
+                <ul class="right-col">
+                    <li><a href="#">Gmail</a></li>
+                    <li><a href="#">Images</a></li>
+                    <li><a href="#"><img class="google-apps" src="images/Google App Icon.svg"></a></li>
+                    <li><a class="sign-in" href="#">Sign in</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="container">
+            <div class="main-content">
+                <img class="logo" src="images/googlelogo_color_272x92dp.png">
+                <div class="searchbar">
+                <div class="search-area">
+                    <input type="text" id="searchbar">
+                    <img class="search-glass" src="images/searching-magnifying-glass (1).png">
+                        <img class="mic" src="images/32px-Google_mic.svg.png">
+                </div><!-- closes search-area-->
+                </div><!-- closes searchbar-->
+                <div class="search-btns">
+                    <a href="#">Google Search</a>
+                    <a href="#">I'm Feeling Lucky</a>
+                </div><!-- closes search-btns -->
+                <p class="offer">Google offered in: <a href="#">Français</a></p>
+            </div><!-- close main-content -->
+        </div><!-- closes container-->
+        <footer>
+            <div class="country">
+                <a href="#">Canada</a>
+            </div><!-- closes country -->
+            <div class="second-nav">
+               <ul class="left-col">
+                   <li><a href="#">Advertising</a></li>
+                   <li><a href="#">Business</a></li>
+                   <li><a href="#">How Search works</a></li>
+               </ul>
+               <ul class="right-col">
+                    <li><a href="#">Privacy</a></li>
+                    <li><a href="#">Terms</a></li>
+                    <li><a href="#">Settings</a></li>
+                </ul>
+            </div><!-- closes 2nd nav-->
 
-<body>
-    <div id="page-containter">
-        <div id="content-wrap">
-    <header id="header">
-        <div class="topnav">
-            <li><a href="#about">About</a></li>
-            <li><a href="#store">Store</a></li>
-            <div class="topnav-right">
-                <li><a href="#gmail">Gmail</a></li>
-                <li><a href="#images">Images</a></li>
-                <li><button class="login">Sign In</button></li>
-            </div>
-        </div>
-    </header>
-
-    <main>   
-        <div class="center">  
-            <div id="logo">
-                <img src="images/googlelogo_color_272x92dp.png" alt="Logo">
-            </div>
-            <div>
-                <form class="searchbar">
-                    <input id="mysearch" name="searchitem" type="text"/>
-                    <div class="container_mic">
-                    <a href="#mic"><img src="images/mic.png"></a>
-                    </div>
-                </form>
-            </br>
-            <div class="btn-search">
-                <button class="search">Google Search</button>
-                <button class="search">I'm Feeling Lucky</button>
-            </div>
-            </br>
-            </br>     
-                <p style="font-size:small">Google offered in: <a style="font-size:small" href=#language>Français</a></p>
-            </div>
-        </div>
-    </main>
-    
-        
-    <footer id="footer">
-    
-    <div id="Country">
-        <p>Canada</p>
-    </div>
-    
-        <div class="bottomnav">
-                <li><a href="#advertising">Advertising</a></li>
-                <li><a href="#business">Business</a></li>
-                <li><a href="#works">How Search Works</a></li>
-            <div class="bottomnav-right">
-                <li><a href="#privacy">Privacy</a></li>
-                <li><a href="#terms">Terms</a></li>
-                <li><a href="#settings">Settings</a></li>
-            </div> 
-        </div>
-    </footer>
-    </div>
-</div>
-</body>
+        </footer>
+    </body>
 </html>
